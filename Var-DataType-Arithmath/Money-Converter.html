@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Money Converter</title>
+    <style>
+        td {
+            text-align: center;
+            font: bold;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="post" name="moneycv">
+    <table cellspacing="10">
+        <tr>
+            <td>Amount</td>
+            <td>From Currency</td>
+            <td>To Currency</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="Money">
+            </td>
+            <td><select name="Country">
+                <option value="VietNam" name="Country">VietNam</option>
+            </select></td>
+            <td><select name="Country">
+                <option value="USD" name="Country">USD</option>
+            </select></td>
+            <td>
+                <button type="button" onclick="Convert()" style="color: white; background: mediumpurple">Convert
+                </button>
+            </td>
+        </tr>
+    </table>
+</form>
+<div id="result" style="color: blue"></div>
+<script src="MoneyConverter.js">
+</script>
+</body>
+</html>
