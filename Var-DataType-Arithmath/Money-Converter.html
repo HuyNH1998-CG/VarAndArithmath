@@ -19,13 +19,18 @@
             <td>To Currency</td>
         </tr>
         <tr>
-            <td><input type="text" name="Money">
+            <td><input type="text" id="Money" name="money">
             </td>
-            <td><select name="Country">
-                <option value="VietNam" name="Country">VietNam</option>
+            <td><select name="Currency" id="A">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+                <option value="JPY">JPY</option>
+
             </select></td>
-            <td><select name="Country">
-                <option value="USD" name="Country">USD</option>
+            <td><select name="Currency" id="B">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+                <option value="JPY">JPY</option>
             </select></td>
             <td>
                 <button type="button" onclick="Convert()" style="color: white; background: mediumpurple">Convert
